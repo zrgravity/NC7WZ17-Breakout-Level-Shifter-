@@ -1,0 +1,182 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L dk_Logic-Buffers-Drivers-Receivers-Transceivers:NC7WZ17P6X U1
+U 1 1 5D9F6BBD
+P 4300 3150
+F 0 "U1" H 4150 2800 60  0000 C CNN
+F 1 "NC7WZ17P6X" H 4650 2800 60  0000 C CNN
+F 2 "digikey-footprints:SOT-363" H 4500 3350 60  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/NC/NC7WZ17.pdf" H 4500 3450 60  0001 L CNN
+F 4 "NC7WZ17P6XCT-ND" H 4500 3550 60  0001 L CNN "Digi-Key_PN"
+F 5 "NC7WZ17P6X" H 4500 3650 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 4500 3750 60  0001 L CNN "Category"
+F 7 "Logic - Buffers, Drivers, Receivers, Transceivers" H 4500 3850 60  0001 L CNN "Family"
+F 8 "https://www.fairchildsemi.com/datasheets/NC/NC7WZ17.pdf" H 4500 3950 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/NC7WZ17P6X/NC7WZ17P6XCT-ND/965707" H 4500 4050 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC BUF NON-INVERT 5.5V SC70-6" H 4500 4150 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 4500 4250 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4500 4350 60  0001 L CNN "Status"
+	1    4300 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:C C1
+U 1 1 5D9F7749
+P 3950 2300
+F 0 "C1" H 4128 2346 50  0000 L CNN
+F 1 "C" H 4128 2255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3950 2300 50  0001 C CNN
+F 3 "~" H 3950 2300 50  0001 C CNN
+	1    3950 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J2
+U 1 1 5D9F7D13
+P 5400 3200
+F 0 "J2" H 5480 3192 50  0000 L CNN
+F 1 "Conn_01x04" H 5480 3101 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5400 3200 50  0001 C CNN
+F 3 "~" H 5400 3200 50  0001 C CNN
+	1    5400 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 5D9F857D
+P 3350 3300
+F 0 "J1" H 3500 3350 50  0000 C CNN
+F 1 "Conn_01x03" H 3650 3250 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3350 3300 50  0001 C CNN
+F 3 "~" H 3350 3300 50  0001 C CNN
+	1    3350 3300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR04
+U 1 1 5D9FAEEB
+P 4300 2950
+F 0 "#PWR04" H 4300 2800 50  0001 C CNN
+F 1 "VCC" H 4400 3000 50  0000 C CNN
+F 2 "" H 4300 2950 50  0001 C CNN
+F 3 "" H 4300 2950 50  0001 C CNN
+	1    4300 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR06
+U 1 1 5D9FB382
+P 5200 3100
+F 0 "#PWR06" H 5200 2950 50  0001 C CNN
+F 1 "VCC" H 5217 3273 50  0000 C CNN
+F 2 "" H 5200 3100 50  0001 C CNN
+F 3 "" H 5200 3100 50  0001 C CNN
+	1    5200 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR02
+U 1 1 5D9FB6F8
+P 3950 2050
+F 0 "#PWR02" H 3950 1900 50  0001 C CNN
+F 1 "VCC" H 3967 2223 50  0000 C CNN
+F 2 "" H 3950 2050 50  0001 C CNN
+F 3 "" H 3950 2050 50  0001 C CNN
+	1    3950 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5D9FBDDD
+P 4300 3550
+F 0 "#PWR05" H 4300 3300 50  0001 C CNN
+F 1 "GND" H 4305 3377 50  0000 C CNN
+F 2 "" H 4300 3550 50  0001 C CNN
+F 3 "" H 4300 3550 50  0001 C CNN
+	1    4300 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5D9FBF0A
+P 5200 3400
+F 0 "#PWR07" H 5200 3150 50  0001 C CNN
+F 1 "GND" H 5205 3227 50  0000 C CNN
+F 2 "" H 5200 3400 50  0001 C CNN
+F 3 "" H 5200 3400 50  0001 C CNN
+	1    5200 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5D9FC46F
+P 3550 3400
+F 0 "#PWR01" H 3550 3150 50  0001 C CNN
+F 1 "GND" H 3555 3227 50  0000 C CNN
+F 2 "" H 3550 3400 50  0001 C CNN
+F 3 "" H 3550 3400 50  0001 C CNN
+	1    3550 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5D9FCF7E
+P 3950 2550
+F 0 "#PWR03" H 3950 2300 50  0001 C CNN
+F 1 "GND" H 3955 2377 50  0000 C CNN
+F 2 "" H 3950 2550 50  0001 C CNN
+F 3 "" H 3950 2550 50  0001 C CNN
+	1    3950 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 3300 3900 3300
+Wire Wire Line
+	3900 3350 4000 3350
+Wire Wire Line
+	4500 3350 5050 3350
+Wire Wire Line
+	5050 3350 5050 3300
+Wire Wire Line
+	5050 3300 5200 3300
+Wire Wire Line
+	5200 3200 5050 3200
+Wire Wire Line
+	5050 3200 5050 3150
+Wire Wire Line
+	5050 3150 4500 3150
+Wire Wire Line
+	3900 3300 3900 3350
+Wire Wire Line
+	3550 3200 3900 3200
+Wire Wire Line
+	3900 3200 3900 3150
+Wire Wire Line
+	3900 3150 4000 3150
+Text Label 3650 3200 0    50   ~ 0
+IN1
+Text Label 3650 3300 0    50   ~ 0
+IN2
+Text Label 4700 3150 0    50   ~ 0
+OUT1
+Text Label 4700 3350 0    50   ~ 0
+OUT2
+Text Notes 5350 3000 0    50   ~ 0
+OUTPUT
+Text Notes 3300 3100 0    50   ~ 0
+INPUT
+$EndSCHEMATC
