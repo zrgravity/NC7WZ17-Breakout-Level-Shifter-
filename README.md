@@ -14,6 +14,7 @@ Propagation delay: 3.6ns typical into 50pf at 5V (5.6us max)
 24mA output current at 3V
 Over-voltage tolerant inputs (up to 7V, 5.5V max recommended)
 Quiescient Current: 1uA typ, 10uA max
+
 ***Schmitt Trigger***
 Positive threshold voltage (3V): 1.74V typ, 2.2V max
 Negative threshold voltage (3V): 0.60V min, 0.98V typ
